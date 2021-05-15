@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:weightSum="20"
+    android:layout_height="match_parent"
+    android:gravity="center|left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/wallet_img"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="3"
+        android:src="@drawable/credit_card"></ImageView>
+    <LinearLayout
+        android:layout_weight="11"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tenthe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten the"
+            ></TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textSize="10sp"
+            android:id="@+id/tongtien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tong tien"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/send_wallet"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_send"></ImageView>
+    <ImageView
+        android:layout_margin="2dp"
+        android:layout_weight="2"
+        android:id="@+id/edit_wallet"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_edit"
+        >
+    </ImageView>
+    <ImageView
+        android:layout_margin="2dp"
+        android:layout_weight="2"
+        android:id="@+id/delete_wallet"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_delete"
+        >
+    </ImageView>
+
+</LinearLayout>

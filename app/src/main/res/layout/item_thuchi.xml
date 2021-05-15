@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="13"
+    android:gravity="center|left"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:id="@+id/imgdanhmuc2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></ImageView>
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tenkhoanthuchi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ten muc thu chi"
+            android:textColor="#000000"
+            android:textStyle="bold"
+
+            android:textSize="20sp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/sotien2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="so tien"></TextView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/thoigian"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="06/11/1999"
+            android:textSize="15sp"
+
+            >
+
+        </TextView>
+    </FrameLayout>
+</LinearLayout>

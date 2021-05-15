@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">quanlychitieu</string>
+    <string name="facebook_app_id">2755396831359327</string>
+    <string name="fb_login_protocol_scheme">fb2755396831359327</string>
+    <string name="thu">Thu Tiền</string>
+    <string name="chi">Chi Tiền</string>
+    <string name="vi">Ví</string>
+    <string name="qltc">Quản tài chính</string>
+    <string name="baocaotc">Báo cáo tài chính</string>
+    <string name="tongtien">Tổng tiền: </string>
+    <string name="themthanhcong">Thêm thành công!</string>
+    <string name="lsthuchi">Lịch sử thu chi</string>
+    <string name="ngaybd">Bắt đầu: </string>
+    <string name="ngaykt">Kết thúc: </string>
+    <string name="tatca">Tất cả</string>
+    <string name="tenkhoanthu">Tên khoản thu: </string>
+    <string name="tenkhoanchi">Tên khoản chi: </string>
+    <string name="sotien">Số tiền: </string>
+    <string name="tenvi">Ví: </string>
+    <string name="ngay">Ngày: </string>
+    <string name="hangmuc">Hạng mục: </string>
+    <string name="ghichu">Ghi chú: </string>
+    <string name="dong">Đóng</string>
+    <string name="xoa">Xóa</string>
+    <string name="nhapdungtime">Nhập đúng đinh dạng thời gian!</string>
+    <string name="sotienkhongdu">Số tiền của ví không đủ!</string>
+    <string name="phantichthoethang">Biểu đồ thu chi</string>
+    <string name="phantichtheohm">Biểu đồ hạng mục</string>
+    <string name="khoanmuc">Hạng mục</string>
+    <string name="taichinh">Tài chính hiện tại</string>
+    <string name="theodoivayno">Theo dõi vay nợ</string>
+    <string name="chuyendi">Chuyến đi/Sự kiện</string>
+    <string name="phantich">Phân tích tài chính</string>
+    <string name="hanmuc">Hạn mức chi tiêu</string>
+    <string name="chuyenkhoan">Chuyển khoản</string>
+    <string name="chonvi">Chọn ví:</string>
+    <string name="sotien2">Số tiền:</string>
+    <string name="xacnhan">Xác nhận</string>
+    <string name="huy">Hủy</string>
+    <string name="denvi">Đến ví:</string>
+    <string name="tuvi">Từ ví:</string>
+    <string name="chuachonloaivi">Chưa chọn ví!</string>
+    <string name="chonvi2">Chọn ví</string>
+    <string name="tenvi2">Tên ví</string>
+    <string name="themvi">Thêm ví</string>
+    <string name="loaitienmat">Tiền mặt</string>
+    <string name="loaithe">Thẻ ngân hàng</string>
+    <string name="suasodu">Sửa số dư</string>
+    <string name="xacnhanxoa">Xác nhận xóa ví: </string>
+    <string name="baocaothuchitheothang">Năm 2020</string>
+    <string name="thang">Tháng</string>
+    <string name="ngay1">Ngày</string>
+    <string name="loinhaptien">Nhập vào số tiền!</string>
+    <string name="lichsu">Lịch sử thu chi</string>
+    <string name="bieudohangmuc">Biểu đồ hạng mục</string>
+    <string name="bieudochitieu">Biểu đồ thu chi</string>
+    <string name="xoathanhcong">Xóa thành công!</string>
+    <string name="hanmucthuchi">Hạn mức thu chi</string>
+
+    <!--    Mục chi -->
+    <string name="mucchi">Chi tiền</string>
+    <string name="chi_quan_ao">Quần áo</string>
+    <string name="chi_xe_co">Xe cộ</string>
+    <string name="chi_mua_sam">Mua sắm</string>
+    <string name="chi_an_uong">Ăn uống</string>
+    <string name="chi_dien_thoai">Điện thoại</string>
+    <string name="chi_the_duc">Thể dục, thể thao</string>
+    <string name="chi_hoc_tap">Học tập</string>
+
+
+
+    <!--    Mục thu-->
+    <string name="mucthu">Thu tiền</string>
+    <string name="thu_tien_luon">Tiền lương</string>
+    <string name="thu_ban_do">Bán đồ</string>
+    <string name="thu_vay_no">Vay nợ</string>
+    <string name="thu_lai_xuat">Lãi xuất</string>
+    <string name="intro">Cùng MonkeyKeeper lập ra các hạn mức chi đê quản lý chi tiêu tốt hơn nhé</string>
+    <string name="stk">Hiện tại, bạn chưa có sổ tiết kiệm nào</string>
+    <string name="vayno">Hiện tại, bạn không có khoản cho vay hay Còn nợ nào</string>
+
+
+</resources>

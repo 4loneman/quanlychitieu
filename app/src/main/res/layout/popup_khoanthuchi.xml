@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/tenkhoanchi"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popupten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="tenkhoanthuchi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/sotien"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popupsotien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="so tien"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/ngay"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popupngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="6/11/1999"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/tenvi"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popuptenvi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="6"
+            android:text="tenvi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"></TextView>
+        <ImageView
+            android:id="@+id/popupimgvi"
+            android:layout_weight="3"
+            android:src="@drawable/credit_card"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/hangmuc"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popupdanhmuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="tenhangmuc"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/ghichu"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/popupghichu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:text="ghi chu"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+>
+        <Button
+            android:id="@+id/popupbtnclose"
+            android:background="@drawable/button2"
+            android:text="@string/dong"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:id="@+id/delete"
+            android:background="@drawable/button2"
+            android:text="@string/xoa"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

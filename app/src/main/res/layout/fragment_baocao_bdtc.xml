@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="12"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_weight="1"
+        android:background="#0D8CFB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <TextView
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="@string/bieudochitieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/ragroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/radchi"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/chi"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radthu"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:text="@string/thu"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </com.github.mikephil.charting.charts.BarChart>
+</LinearLayout>

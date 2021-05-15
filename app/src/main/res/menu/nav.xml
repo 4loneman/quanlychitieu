@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="Tổng quan" android:icon="@drawable/home" ></item>
+    <item android:id="@+id/wallet" android:title="Tài Khoản" android:icon="@drawable/wallet"></item>
+    <item android:id="@+id/add" android:title="Thêm" android:icon="@drawable/plus"></item>
+    <item android:id="@+id/report" android:title="Báo cáo" android:icon="@drawable/marketing"></item>
+    <item android:id="@+id/user" android:title="Người dung" android:icon="@drawable/user"></item>
+</menu>
