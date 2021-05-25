@@ -261,9 +261,9 @@ public class KhoanThuChiDao extends SQLiteOpenHelper {
 
     public Float getTongtien(Integer thang, Integer loai) {
         Float tong = 0f;
-        String begin = "1/" + thang.toString() + "/2020";
+        String begin = "1/" + thang.toString() + "/2021";
         thang++;
-        String end = "1/" + thang.toString() + "/2020";
+        String end = "1/" + thang.toString() + "/2021";
         Long b = new Long(0);
         Long e = new Long(0);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
